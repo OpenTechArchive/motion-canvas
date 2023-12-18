@@ -1,0 +1,10 @@
+name: Sync OpenTechArchive Fork
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync_archive:
+    uses: OpenTechArchive/.github/.github/workflows/sync_archive.yml@main
