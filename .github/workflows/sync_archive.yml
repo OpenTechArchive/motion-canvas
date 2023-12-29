@@ -8,3 +8,4 @@ on:
 jobs:
   sync_archive:
     uses: OpenTechArchive/.github/.github/workflows/sync_archive.yml@main
+    secrets: inherit
